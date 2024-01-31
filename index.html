@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="./sass/index.css">
+    <link rel="icon" href="./img/logo_range.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <section id="header">
+        <nav class="header-nav">
+          <div class="header-nav_logo">
+            <img src="./img/logo_range.png" alt="">
+            <div class="">
+              <a href="#" onclick="document.getElementById('id01').style.display='block'" id="btn_logo">XAN AKADEMIYA</a>
+            
+              <div id="id01" class="w3-modal">
+                font-family: 'Single Day', cursive;
+                <div class="w3-modal-content"  style="background-color: rgba(104, 23, 97, 0.7); font-family: 'Single Day', cursive;">
+                  <div class="w3-container" style="font-family: 'Single Day', cursive;">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p class="p1">XAN AKADEMIYA</p>
+                    <p class="p1_title">Online va ofline zamonaviy metodlar asosida o'qitiladigan kurslarni taklif qiladi</p>
+                    <p class="p2">Ingliz tili</p>
+                    <p class="p2">Matematika</p>
+                    <p class="p2">Psixologiya</p>
+                    <p class="p2">Boshlang'ich ta'lim</p>
+                    <p class="p2">WEB dasturlash (FRONTEND)</p>
+                    <ul>
+                      <li>
+                        <p>O'quv kursi tugaganida mycv.unaux.com saytiga o'xshagan loyiha va boshqa real loyihalarda masofadan jamoaviy ishlashni o'rganasiz</p>
+                        <ol>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>BOOTSTRAP</li>
+                          <li>SASS</li>
+                          <li>ALGORITIMLASH</li>
+                          <li>JAVASCRIPT</li>
+                          <li>REACT JS</li>
+                          <li>TRELLO</li>
+                          <li>JIRA</li>
+                          <li>GIT HUB</li>
+                          <li>FIGMA</li>
+                        </ol>
+                      </li>
+                    </ul>
+                    <p class="p_footer">TEZ ORADA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-nav_pages">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <img src="img/MenuIcon.png" alt="">
+            </label>
+              <ul class="section-items">
+                <li>
+                  <a href="#header" class="active">Asosiy</a>
+                </li>
+                <li>
+                  <a href="#about">Men haqimda</a>
+                </li>
+                <li>
+                  <a href="#servis">Xizmatlar</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#contact">Bog'lanish</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+
+        <div class="header-about">
+          <h3>Assalomu alaykum !</h3>
+          <h1>Men Siyovush Abdullayev</h1>
+          <h4>Junior (o'rta) dasturchi && PM</h4>
+          <a href="./cv/CV (S.Abdullayev).pdf" download="">
+            <p>CV</p>
+            <img src="./icon/download.png" alt="">
+          </a>
+        </div>
+      </section>
+    <!-- /header -->
+
+    <!-- About me -->
+    <section id="about">
+      <div class="about-img">
+        <img src="./img/I_am_kreativ_new2.png" alt="">
+      </div>
+
+      <div class="about-data">
+        <div class="about-data_title">
+          <h4 style="color: #A96CD7;">Men haqimda</h4>
+          <h1>Junior (o'rta) dasturchi && PM</h1>
+          <h3>
+            Navoiy "UNICON SOFT" hududiy bo'limi bo'lim boshlig'i o'rinbosari && Bosh Texnik
+          </h3>
+          <h3>
+            "ijro.gov.uz" idoralararo hujjat aylanish tizimini Navoiy viloyatiga joriy etish bo'yicha mas'ul hodim
+          </h3>
+          <h3>
+            Navoiy viloyat tashkilot hodimlarini "ijro.gov.uz" idoralararo hujjat aylanish tizimi bo'yicha o'qitish va texnik qo'llab-quvvatlash
+          </h3>
+          <h3>
+            Navoiy "UNICON SOFT" hududiy bo'limi hodimlarini "ijro.gov.uz" idoralararo hujjat aylanish tizimI va IT sohasidagi bilimlarini oshirishga javobgar hodim
+          </h3>
+        </div>
+
+        <div class="about-data_short">
+          <div>
+            <div>
+              <label class="about-data_short-label">FISH:</label>
+              <label for="">Siyovush Abdullayev</label>
+            </div>
+            <div>
+              <label class="about-data_short-label" for="">Tug'ilgan kun:</label> 
+              <label for="">Iyun 06, 1995</label>
+            </div>
+            <div>
+              <label class="about-data_short-label" for="">Manzil:</label>
+              <label for="">Navoiy viloyat</label>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <label class="about-data_short-label">Pochta index:</label>
+              <label for="">210100</label>
+            </div>
+            <div>
+              <label class="about-data_short-label" for="">Gmail:</label>
+              <label for="">siyovushxan@gmail.com</label>
+            </div>
+            <div>
+              <label class="about-data_short-label" for="">Tel:</label>
+              <label for="">94 337 32 35</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-buttton__mesenger">
+          <div class="contact-mesenger">
+            <a href="https://t.me/XAN_AKADEMIYA">
+              <img src="./icon/mesenger/telegram.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/siyovushxan/">
+              <img src="./icon/mesenger/instagram.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/@siyovushxan/">
+              <img src="./icon/mesenger/youtube.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About me -->
+
+    <!-- Xizmatlar -->
+    <section id="servis">
+      <div>
+        <h1>TAKLIF QILAMAN</h1>
+        <h2>SIZ IZLAGAN DASTURIY TA'MINOT VA WEB SAYTLAR TAYYORLASH XIZMATI</h2>
+      </div>
+      <div id="servis-cards">
+        <!-- JS dagi ma'lumotlar o'qimi tushadi card ko'rinishida -->
+      </div>
+    </section>
+    <!-- /Xizmatlar -->
+
+    <!-- Portfoio -->
+    <div class="portfolio" id="portfolio">
+      <div class="portfolio-subtitle">
+        <h2 style="text-align: center;">Portfolio</h2>
+        <br>
+        <h4 style="letter-spacing: 2px;">Mening loyihalarim va joriy etishda qatnashgan tizimlar</h4>
+      </div>
+      <div id="card-area">
+        <div class="wrapper">
+            <div class="box-area">
+                <div class="box">
+                    <img src="./img/Portfolio/Xan.png" alt="">
+                    <div class="overlay">
+                        <h3>Portfolio</h3>
+                        <p>html, css, bootstrap, JS dan foydalanib ishlab chiqilgan</p>
+                        <a href="http://mycv.unaux.com/">mycv.unaux.com</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/Portfolio/MardEx_GO.png" alt="">
+                    <div class="overlay">
+                        <h3>Startup loyiha</h3>
+                        <p>"RAQAMLI DUNYO" MCHJ korxonasida loyihani ishlab chiqish jarayonida PM</p>
+                        <a href="https://play.google.com/store/apps/details?id=uz.star.mardex">MardEx GO</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/Portfolio/MardEx_PRO.png" alt="">
+                    <div class="overlay">
+                        <h3>Startup loyiha</h3>
+                        <p>"RAQAMLI DUNYO" MCHJ korxonasida loyihani ishlab chiqish jarayonida PM</p>
+                        <a href="https://play.google.com/store/apps/details?id=uz.star.mardexworker">MardEx PRO</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/Portfolio/Navoiyuran.png" alt="">
+                    <div class="overlay">
+                        <h3>Navoiyuran DK</h3>
+                        <p>Ijro tizimini joriy qilish jarayonida qatnashganman</p>
+                        <a href="http://ijro.navoiyuran.uz/">ijro.navoiyuran.uz</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/Portfolio/edo.png" alt="">
+                    <div class="overlay">
+                        <h3>IJRO INTIZOMI</h3>
+                        <p>"UNICON SOFT" MCHJ Navoiy filiali tomonidan edo.ijro.uz tizimini joriy qilish jarayonida qatnashganman</p>
+                        <a href="http://edo.ijro.uz/">edo.ijro.uz</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/Portfolio/E-HUQUQSHUNOS.png" alt="">
+                    <div class="overlay">
+                        <h3>E-HUQUQSHUNOS</h3>
+                        <p>"UNICON SOFT" MCHJ Navoiy filiali tomonidan E-HUQUQSHUNOS tizimini joriy qilish jarayonida qatnashganman</p>
+                        <a href="http://lawyer.ijro.uz/">lawyer.ijro.uz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- /portfolio -->
+
+    <section class="contact" id="contact">
+      <div class="contact-description">
+        <div>
+          <h2>Bog'lanish</h2>
+          <form action="https://formsubmit.co/01052623ba515ecc1a33ad567f7ca8b5" method="POST">
+            <input type="text" id="name" placeholder="FISH" name="name" required>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+            <input type="number" id="phone" placeholder="Telifon raqam" name="phone" required>
+            <input type="hidden" name="_next" value="https://mycv.unaux.com">
+            <input type="hidden" name="_template" value="table">
+            <textarea placeholder="Mavzu" name="subject" id="message" required></textarea>
+            <!-- Button trigger modal -->
+            <button type="submit">Yuborish</button>
+          </form>
+        </div>
+        <div class="contact-buttton__mesenger">
+          <div class="contact-mesenger">
+            <a href="https://t.me/XAN_AKADEMIYA">
+              <!-- <i class="fa-brands fa-telegram fa-fade"></i> -->
+              <img src="./icon/mesenger/telegram.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/siyovushxan/">
+              <!-- <i class="fa-brands fa-square-instagram fa-fade"></i> -->
+              <img src="./icon/mesenger/instagram.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/@siyovushxan/">
+              <!-- <i class="fa-brands fa-youtube fa-fade"></i> -->
+              <img src="./icon/mesenger/youtube.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map" id="googleMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1525.9658469029823!2d65.37617571087571!3d40.09923584996489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f51c70c474518f9%3A0xf3b22483d22cf618!2z0JzQsNCz0LDQt9C40L0g0L7QtNC10LbQtNGLIFRlcnJhIFBybw!5e0!3m2!1sru!2s!4v1706524881509!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <!-- /contact -->
+
+    <script src="./js/index.js"></script>
+
+    <!-- Form orqali email ga xabar yuborish -->
+    <script src="./js/email_form.js"></script>
+</body>
+</html>
